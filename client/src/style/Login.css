@@ -1,0 +1,11 @@
+.container{
+    margin:auto;
+    border: 1px solid green;
+}
+
+.form{
+    /* border: 1px solid blue; */
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+}

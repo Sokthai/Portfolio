@@ -1,0 +1,16 @@
+export const GET_RESUME_SUCCESS = 'GET_RESUME_SUCCESS';
+export const GET_RESUME_FAIL = 'GET_RESUME_FAIL';
+
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const USER_LOADED = 'USER_LOADED';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const CLEAR_USER = 'CLEAR_USER';
+export const USER_LOADED_FAIL = 'USER_LOADED_FAIL';
+export const PROJECT_LOADED = 'PROJECT_LOADED';
+export const PROJECT_LOADED_FAIL = 'PROJECT_LOADED_FAIL';
+export const LOGOUT = 'LOGOUT';
+export const GITHUB_SUCCESS = 'GITHUB_SUCCESS';
+export const GITHUB_FAIL = 'GITHUB_FAIL';
+

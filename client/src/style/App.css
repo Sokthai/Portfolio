@@ -1,0 +1,354 @@
+:root{
+  --theme-color2: #4CAF50;
+  --theme-color: #31D181;
+  --text-gray-color: #777777;
+  --border-green: 0px solid green;
+  --border-blue: 0px solid blue;
+  --border-anycolor: 0px solid;
+}
+
+html, body{
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+  min-height: 0;
+}
+
+
+.contactInfo{
+  text-transform: capitalize;
+}
+
+.email{
+  text-transform: lowercase;
+}
+
+.contactField{
+  font-weight: bold;
+}
+
+
+.resume{
+  background-color: white;
+  height: 75%;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 90%;
+  float: right;
+  padding: 20px;
+  overflow: auto;
+  border: 0px solid black;
+}
+
+.resumeContent{
+  border: var(--border-anycolor) red;
+  position: relative;
+  
+  display: flex;
+  
+}
+
+.download{
+  position: relative;
+  border: 2px solid var(--theme-color);
+  /* padding: 15px;
+  margin-top: 50px; */
+
+ 
+  /* background-color: #f4511e; */
+  
+  color: #333333;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-transform: uppercase;
+
+  
+}
+
+.download:hover{
+  text-decoration: none;
+  background-color: var(--theme-color);
+  color: white;
+}
+
+
+
+
+
+
+.lan,
+.skill,
+.education,
+.experience{
+  width: 50%;
+  
+}
+
+.course{
+  width: 100%;
+}
+
+ul.blockList li{
+  /* background-color: whitesmoke; */
+  border-left: 2px solid #777777;
+  margin-left: 40px;
+  padding-left: 13px;
+  margin-right: 10px;
+  margin-top: 30px;
+  padding-top:15px;
+  
+
+  /* height: 125px; */
+
+}
+
+.sectionTitle{
+  color: #333333;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: var(--text-gray-color);
+ 
+}
+
+
+.blockDescription{
+  line-height: 20px;
+  font-size: 14px;
+  color: #777777;
+  border: var(--border-blue);
+  margin-bottom: 10px;
+}
+
+.blockName{
+  color: var(--theme-color);
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+
+
+
+.blockTitle{
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 0px;
+}
+
+ul.blockList li span:before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 90%;
+  border: 2px solid #777777;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  background-color: whitesmoke;
+}
+
+ul.blockList li span:after{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 90%;
+  border: 2px solid #777777;
+  position: absolute;
+  background-color: whitesmoke;
+  left: -20px;
+  top: 100%;
+}
+
+.number{
+  font-size: 12px;
+}
+
+.code-lan:after,
+.code-lan:before{
+  display: none;
+}
+
+
+
+div.blockSection{
+  background-color: whitesmoke;
+  padding: 15px 30px;
+  
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: var(--border-blue);
+}
+
+
+
+.sectionInfo{
+  position: relative;
+  border: var(--border-green);
+  
+}
+
+
+.before{
+  position: absolute;
+  left: -70px;
+  top: -34px;
+}
+
+.after{
+  position: absolute;
+  left: -70px;
+  top: 88%;
+}
+
+.skillBlock{
+  /* border: 1px solid plum; */
+  display: flex;
+  margin-top: 50px;
+}
+
+.progress-bar-background{
+  background-color: var(--theme-color);
+  line-height: 0px;
+}
+
+.progress-bar{
+  background-color: var(--theme-color);
+  height: 8px;
+  width: 0px;
+}
+
+.progress-bar-block{
+  color: var(--text-gray-color);
+  /* border: 1px solid blue; */
+  border: var(--border-blue);
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+/* .progress-bar-text{
+  border: 1px solid red;
+} */
+
+.percentage{
+  float: right;
+}
+
+.test1{
+  color: var(--theme-color);
+}
+
+.blockList{
+  border : var(--border-blue);
+  /* padding-left: 0px; */
+}
+
+a.github{
+  font-size: 20px;
+  
+}
+
+
+
+
+.blockList .courseList{
+  border:  var(--border-blue);
+  margin-left: 5px;
+  width: 47%;
+  display: inline-block;
+  padding: 0px;
+  /* height: 200px; */
+  /* overflow-y: auto; */
+  vertical-align: top;
+}
+
+.sectionInfo .code-lan{
+  color: var(--text-gray-color);
+  font-size: 9px;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.logo{
+  border: var(--border-blue);
+  width: 50px;
+  height: 50px;
+  /* display: inline-block; */
+  margin-right: 20px;
+  float: left;
+  border-radius: 3px;
+}
+
+.projlogo{
+  border: var(--border-green);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.projLink:hover{
+  text-decoration: none;
+}
+
+.jobDuration{
+  color: var(--theme-color);
+  font-size: 13px;
+  /* border: 1px solid blue; */
+  float: right;
+}
+
+.jobTitle{
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+
+.blockList .internList{
+  border: var(--border-blue);
+  margin-left: 5px;
+  width: 47%;
+  display: inline-block;
+  padding: 0px;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.noway{
+  display: none;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
