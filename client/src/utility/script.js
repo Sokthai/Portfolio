@@ -14,38 +14,38 @@ export function navbarHover(index){
 
 }
 
-export function move() {
-    let elem = document.getElementsByClassName("progress-bar");
-    let width = 1;
-    let perc = document.getElementsByClassName("percent");
+// export function move() {
+//     let elem = document.getElementsByClassName("progress-bar");
+//     let width = 1;
+//     let perc = document.getElementsByClassName("percent");
     
-    for (let i = 0; i < elem.length; i++){
-      let id = setInterval(frame, 10);
-      function frame() {
-        if (width > 100) {
-          // clearInterval(id);
-        } else {
-          width++; 
+//     for (let i = 0; i < elem.length; i++){
+//       // let id = setInterval(frame, 10);
+//       function frame() {
+//         if (width > 100) {
+//           // clearInterval(id);
+//         } else {
+//           width++; 
           
-          elem[i].style.width = width + '%'; 
-          perc[i].innerHTML = width-1;
-        }
-      }
-  }
-}
+//           elem[i].style.width = width + '%'; 
+//           perc[i].innerHTML = width-1;
+//         }
+//       }
+//   }
+// }
 
   
 export function scrollfunc(){
-  let mobile = 0.57;
-  let large = 0.34; // >= 1400
-  let medium = 0.42; // 1400
+  // let mobile = 0.57;
+  // let large = 0.34; // >= 1400
+  // let medium = 0.42; // 1400
   let small = 0.538; // <=900
   let x = small;
   let obj = document.getElementById("res");
-  let lan = document.getElementById("lantest").getBoundingClientRect();
-  console.log("this is lan test " + lan.top);
+  // let lan = document.getElementById("lantest").getBoundingClientRect();
+  // console.log("this is lan test " + lan.top);
   let w = obj.clientHeight;
-  console.log("scroll is " + obj.scrollTop + " and w is goood " + w * x);
+  // console.log("scroll is " + obj.scrollTop + " and w is goood " + w * x);
   if (obj.scrollTop > (w * x)){
     console.log(w * x);
   }
@@ -56,7 +56,7 @@ export function scrollfunc(){
 
 export function collapseNavbar() {
     let content = document.getElementById("myTopnav");
-    let navbar = document.getElementById("navbar");
+    // let navbar = document.getElementById("navbar");
     if (content.className === "topNav") { 
       content.className += " responsive";
     } else {

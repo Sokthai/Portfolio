@@ -62,9 +62,9 @@ function Project({user, getGithub, repos}) {
                                                 <div className="sectionInfo">
                                                     <div className="blockSection">
                                                         <div className="projlogo">
-                                                            <img src={require(`../media/${proj.icon}`)} className="logo" />
+                                                            <img src={require(`../media/${proj.icon}`)} className="logo" alt={proj.icon} />
                                                             <div className="projectDesc">
-                                                            <i className="noway">{ i =  (repos.payload.findIndex(repo => (repo.name == proj.name)) )}</i>
+                                                            <i className="noway">{ i =  (repos.payload.findIndex(repo => (repo.name === proj.name)) )}</i>
                                                                 <h4 className="blockTitle">
                                                                         {
                                                                             i >= 0? 

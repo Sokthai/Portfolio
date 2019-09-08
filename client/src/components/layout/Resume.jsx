@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import {connect} from 'react-redux';
 import {loadUser} from '../../actions/auth';
 import Spinner from './Spinner';
-import {move, scrollfunc} from '../../utility/script';
+import {scrollfunc} from '../../utility/script';
 
 
 
@@ -65,7 +65,7 @@ function experience({experience}){
 
 
 function skill({languages, skill, level = ""}){
-    let lan ;
+    // let lan ;
     return (
             <Fragment>
             <h3 className="sectionTitle">{skill}</h3>

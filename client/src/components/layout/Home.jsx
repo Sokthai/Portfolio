@@ -1,6 +1,6 @@
 import React from 'react'
 import Structure from './Structure';
-import {savePDF} from '../../utility/script';
+
 
 
 function component(){
