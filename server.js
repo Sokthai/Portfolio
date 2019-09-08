@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const connectDB = require("./config/db");
+const path = require("path");
 
 
 
@@ -17,6 +18,13 @@ app.use("/api/profile/experience", require("./routers/api/experience"));
 app.use("/api/profile/education", require("./routers/api/education"));
 app.use("/api/profile/project", require("./routers/api/project"));
 app.use("/api/profile/github", require("./routers/api/github"));
+
+if (process.env.NODE_EVN === "production"){
+    app.use(express.static('client/build'));//set static folder
+    app.get("*", (req, res) => {
+        res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+    })
+}
 
 const PORT = process.env.PORT || 2000;
 app.listen(PORT, (req, res, error) => {
