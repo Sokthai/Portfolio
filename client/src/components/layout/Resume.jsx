@@ -64,7 +64,8 @@ function experience({experience}){
 }
 
 
-function skill({languages, skill}){
+function skill({languages, skill, level = ""}){
+    let lan ;
     return (
             <Fragment>
             <h3 className="sectionTitle">{skill}</h3>
@@ -78,7 +79,8 @@ function skill({languages, skill}){
                         </div>
 
                         <div className="progress-bar-background">
-                            <div className={`progress-bar myBar${sIndex}`}></div>
+                         
+                            <div className={`progress-bar myBar${sIndex} ${speak.replace(" ", "")}`}></div>
                         </div>
                     </div>
                 ))}

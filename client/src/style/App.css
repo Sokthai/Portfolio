@@ -217,14 +217,54 @@ div.blockSection{
 }
 
 .progress-bar-background{
-  background-color: var(--theme-color);
+  background-color: var(--text-gray-color);
   line-height: 0px;
+}
+
+.Java{  
+  width: 95%;
+}
+
+.JavaScript{
+  width: 95%;
+}
+
+.PHP{
+  width: 95%;
+}
+
+.HTML{
+  width: 95%;
+}
+
+.ReactJS{
+  width: 93%;
+}
+
+.NodeJS{
+  width: 93%;
+}
+
+.MySQL{
+  width: 95%;
+}
+
+.C{
+  width: 80%;
+}
+
+.Express{
+  width: 95%;
+}
+
+.LaravelFramework{
+  width: 95%;
 }
 
 .progress-bar{
   background-color: var(--theme-color);
   height: 8px;
-  width: 0px;
+  /* width: 100%; */ 
 }
 
 .progress-bar-block{
