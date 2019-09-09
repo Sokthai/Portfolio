@@ -14,7 +14,7 @@ function component(){
                 Sokthai Tang is currently a Computer Science undergraduate student at UMass Lowell. 
                 He has an Associate degree in CS from Middlesex community college.
                 Currently, he is a senior student at UML and expect to graduate by the end of 2019.
-                He was a previous film production intern at Interlock Media. He is also a freelance web 
+                He is a currently a film production intern at Interlock Media. He is also a freelance web 
                 developer.
                 
             </p>
