@@ -20,7 +20,6 @@ function component({user}){
                 teach myself new skill and techniques. For example, during Summer 2019, I have
                 taught myself how to use React.js to work with my existing projects. 
             </p>
-
             {user.user.map((item, index) => (
             <ul key={`ul${index}`} className="contact">
                 <li key={`name${index}`}><span className="contactField">Name : </span><span
