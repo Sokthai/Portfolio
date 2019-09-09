@@ -17,7 +17,7 @@ function component({user}){
                 I have a steady source of motivation that drives me to do my best. 
                 In my academic projects and internship, i set up daily challenge and goals
                 for myself to be completed by the end of the day. Also, i love to learn and 
-                tech myself new skill and technique. For example, during 2019 Summer time, i have
+                teach myself new skill and technique. For example, during 2019 Summer time, i have
                 taught myself how to use React.js to work with my existing projects. 
             </p>
 
