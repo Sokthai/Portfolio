@@ -1,7 +1,0 @@
-{
-    "mongoDbURI" : "mongodb+srv://allen:allenCloud1@cluster0-yz2yw.mongodb.net/test?retryWrites=true&w=majority",
-    "salt" : 11,
-    "secret" : "doIda@982",
-    "githubSecret" : "9fdb4f5e5bf361a384ed6becb854a557a77f0052",
-    "githubClientId" : "5e95c7eb196feb4e0b80"
-}
