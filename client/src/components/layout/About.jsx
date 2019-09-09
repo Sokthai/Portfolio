@@ -15,9 +15,9 @@ function component({user}){
                 I am ambitious, driven and passionate about my work. I thrive to take on any challenge and 
                 constantly set goals for myself. Because I love what I do, 
                 I have a steady source of motivation that drives me to do my best. 
-                In my academic projects and internship, i set up daily challenge and goals
-                for myself to be completed by the end of the day. Also, i love to learn and 
-                teach myself new skill and technique. For example, during 2019 Summer time, i have
+                In my academic projects and internship, I set up daily challenge and goals
+                for myself to be completed by the end of the day. Also, I love to learn and 
+                teach myself new skill and technique. For example, during Summer 2019, I have
                 taught myself how to use React.js to work with my existing projects. 
             </p>
 
