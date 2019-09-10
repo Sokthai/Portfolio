@@ -7,16 +7,14 @@ function component(){
     return (
         <div className="quote">
             <h2 className="bold">
-                Hello,<br /><span>I Am Sokthai Tang</span>
+                Hello,<br /><span>My name is Sokthai Tang</span>
             </h2>
 
-            <p className="leader">
-                Sokthai Tang is currently a Computer Science undergraduate student at UMass Lowell. 
-                He has an Associate degree in CS from Middlesex community college.
-                Currently, he is a senior student at UML and expect to graduate by the end of 2019.
-                He is a currently a film production intern at Interlock Media. He is also a freelance web 
-                developer.
-                
+            <p className="leader">       
+                I’m currently a student at the University of Massachusetts Lowell studying Computer Science.
+                I received my Associates of Science degree for Computer Science at Middlesex Community
+                College. I’m currently a senior and expect to graduate December 2019. I am currently a web developer 
+                intern for a film production at Interlock Media and a freelance web developer.
             </p>
             {/* <button className="download" onClick={() => savePDF()}>Download</button> */}
             <a href={require('../media/Resume.pdf')} className="download" download="Sokthai_Tang"><span>Download Resume</span></a>
@@ -32,7 +30,6 @@ export default function Home() {
         <Structure value={component()}/>
     )
 }
-
 
 
 

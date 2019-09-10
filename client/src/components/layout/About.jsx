@@ -12,13 +12,12 @@ function component({user}){
         <div className="quote">
             <h1 className="header">About Me</h1>
             <p className="leader">
-                I am ambitious, driven and passionate about my work. I thrive to take on any challenge and 
-                constantly set goals for myself. Because I love what I do, 
-                I have a steady source of motivation that drives me to do my best. 
-                In my academic projects and internship, I set up daily challenge and goals
-                for myself to be completed by the end of the day. Also, I love to learn and 
-                teach myself new skill and techniques. For example, during Summer 2019, I have
-                taught myself how to use React.js to work with my existing projects. 
+            I am ambitious, driven, and passionate about learning and building my skillset to become a
+            better developer. I constantly set goals so that I am always challenging myself to become a
+            better version of myself. Because of my passion for building software, I have a steady source
+            of self-motivation. Also, I love to learn and teach myself new skills and techniques to add to
+            my tool-set. For example, during Summer of 2019, I taught myself ReactJs and added it to
+            some existing projects.
             </p>
             {user.user.map((item, index) => (
             <ul key={`ul${index}`} className="contact">

@@ -21,7 +21,7 @@ function education({education}){
                                 <div className="blockSection">
                                     <h4 className="blockTitle">{edu.degree}</h4>
                                     <h6 className="blockName">{edu.school}</h6>
-                                    <p className="blockDescription">{edu.description}</p>
+                                    <p className="blockDescription courseDecs"><span className="b-title">Relevant courses: </span>{edu.description}</p>
                                 </div>
                                 <span className="number">
                                     <p className="before">{edu.from.substring(0,7)}</p>

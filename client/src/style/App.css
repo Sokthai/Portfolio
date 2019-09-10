@@ -128,6 +128,8 @@ ul.blockList li{
   color: #777777;
   border: var(--border-blue);
   margin-bottom: 10px;
+}
+.blockDescription::first-letter{
   text-transform: capitalize;
 }
 
@@ -137,8 +139,14 @@ ul.blockList li{
   font-size: 13px;
 }
 
+.courseDecs{
+  text-transform: capitalize;
+  font-size: 13px;
+}
 
-
+.b-title{
+  font-weight: bold;
+}
 
 .blockTitle{
   font-size: 18px;
