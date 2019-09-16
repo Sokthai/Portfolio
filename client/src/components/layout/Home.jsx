@@ -13,7 +13,7 @@ function component(){
             <p className="leader">       
                 I’m currently a student at the University of Massachusetts Lowell studying Computer Science.
                 I received my Associates of Science degree for Computer Science at Middlesex Community
-                College. I’m currently a senior and expect to graduate December 2019. I am currently a web developer 
+                College. I’m currently a senior and expect to graduate May 2020. I am currently a web developer 
                 intern for a film production at Interlock Media and a freelance web developer.
             </p>
             {/* <button className="download" onClick={() => savePDF()}>Download</button> */}
