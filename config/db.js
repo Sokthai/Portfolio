@@ -9,7 +9,7 @@ async function connectDB(){
             useCreateIndex: true,
             useFindAndModify: false
         });
-        console.log("Database connected");
+        console.log("Database connected!");
     } catch (error) {
         console.error(error.message);
         process.exit(1);
